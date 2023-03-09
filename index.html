@@ -13,16 +13,22 @@
 
     <div id="app">
         <h1>Biglietto Italo</h1>
-        <input type="number" name="age" id="age">
-        <input type="number" name="km" id="km">
+        <input type="number" name="age" id="age">€
+        <input type="number" name="km" id="km">km
         <button id="btnCalc">Calcola</button>
         <button id="btnCanc">Resetta</button>
+        <select name="select" id="select">
+            <option value="0">Età compresa</option>
+            <option id="minore" value="1">Minore di 18</option>
+            <option value="2">Tra i 18 e 65</option>
+            <option id="maggiore" value="3">Maggiore di 65</option>
+        </select>
     </div>
 
-    <div class="ticket card d-none">
+    <div id="ticket" class="card d-none">
         <h2>Il costo del tuo biglietto è:</h2>
     </div>
-    
+
     <script type="text/javascript" src="./src/script.js">
     </script>
 </body>
