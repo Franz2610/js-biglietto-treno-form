@@ -3,12 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgba(141, 25, 25, 0.81);
-    color: black;
-}
+
 #app{
-    background-color: white;
+    background-color: rgba(214, 27, 27, 0.934);
     margin: 0 auto;
-    
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+}
+.info{
+    padding-bottom: 30px;
+    color: white;
+}
+#ticket{
+    background-color: rgba(214, 27, 27, 0.934);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
 }

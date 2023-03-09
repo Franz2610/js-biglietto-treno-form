@@ -48,34 +48,34 @@ buttonCalc.addEventListener('click', function(){
 
     document.getElementById('ticket').innerHTML = 
     `
-    <h3>${prezzo}€</h3>
+    <h3>${messaggio}${prezzo}€</h3>
     ` ;
     if (age < 18 ) {
         document.getElementById('ticket').innerHTML =
     `
-    <h1>
+    <h3>
         ${messaggio} ${prezzo} € 
-    </h1>
-    <h1>
+    </h3>
+    <h3>
         ${sconto} ${prezzo * 0.20} € 
-    </h1>
-    <h1>
+    </h3>
+    <h3>
         ${tot}    ${(prezzo * 0.80).toFixed(2)}
-    </h1>
+    </h3>
     `;
     } 
     if (age > 65 ) {
         document.getElementById('ticket').innerHTML =
     `
-    <h1>
+    <h3>
         ${messaggio} ${prezzo} € 
-    </h1>
-    <h1>
+    </h3>
+    <h3>
         ${sconto} ${prezzo * 0.40} € 
-    </h1>
-    <h1>
+    </h3>
+    <h3>
         ${tot}    ${(prezzo * 0.60).toFixed(2)}
-    </h1>
+    </h3>
     `;
     }
     ticket.classList.remove('d-none');
