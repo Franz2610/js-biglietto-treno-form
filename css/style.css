@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(141, 25, 25, 0.81);
+    color: black;
+}
+#app{
+    background-color: white;
+    margin: 0 auto;
+    
+}
